@@ -53,7 +53,7 @@ def promote(bot: Bot, update: Update, args: List[str]) -> str:
                           can_pin_messages=bot_member.can_pin_messages,
                           can_promote_members=bot_member.can_promote_members)
 
-    message.reply_text("promoted🧡")
+    message.reply_text("ആഹാ കളറായിട്ടുണ്ടല്ലോ🧡")
     return "<b>{}:</b>" \
            "\n#PROMOTED" \
            "\n<b>Admin:</b> {}" \
@@ -74,12 +74,12 @@ def demote(bot: Bot, update: Update, args: List[str]) -> str:
 
     user_id = extract_user(message, args)
     if not user_id:
-        message.reply_text("mension one.... 🤷🏻‍♂.")
+        message.reply_text(" നീ എന്താ ഈ കാണിക്കണെ ആരെയെല്ലും ഒന്നും മെൻഷൻ അടിക്ക്.... 🤷🏻‍♂.")
         return ""
 
     user_member = chat.get_member(user_id)
     if user_member.status == 'creator':
-        message.reply_text("i cant ban creator of the group.... 😬")
+        message.reply_text(" എന്നെ ഉണ്ടാക്കിയ ആളെ ഒന്നും എന്നിക്ക് ബാൻ ആക്കാൻ പറ്റില്ല🤭.. പോ😡")
         return ""
 
     if not user_member.status == 'administrator':
@@ -217,14 +217,14 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- - /adminlist: list of admins in the chat
+ - /adminlist: ഇങ്ങനെ അങ്ങ് അടിച്ചാൽ ഇവിടെ ഉള്ള മഹാന്മാരെ ഒക്കെ കാണാം
 
 *Admin only:*
- - /pin: silently pins the message replied to - add 'loud' or 'notify' to give notifs to users.
- - /unpin: unpins the currently pinned message
+ - /pin: ഇത് പിൻ അടിച്ച് നാട്ടുകാരെ എല്ലാം അറിയിക്കാം.
+ - /unpin: പിൻ അടിച്ചത് കളയാൻ
  - /invitelink: gets invitelink
- - /promote: promotes the user replied to
- - /demote: demotes the user replied to
+ - /promote: അഡ്മിൻ ആക്കാൻ
+ - /demote: അഡ്മിൻ പവർ തെറിപ്പിക്കാൻ
 """
 
 __mod_name__ = "Admin"
