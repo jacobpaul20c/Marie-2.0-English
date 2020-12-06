@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-നമസ്ക്കാരം  {}, എൻ്റെ പേര് {}! if you have any questions about how to use me please ask to @power_of_telegram
+നമസ്ക്കാരം  {}, എൻ്റെ പേര് {}! if you have any questions about how to use me please ask to *[This Legand](t.me/fun_heat)*
 
 *This Bot Can't Join your group's🧐*
 
@@ -43,7 +43,7 @@ And the following:
 
 DONATE_STRING = """Hoya! glad to hear you want to donate! ചക്കരെ പക്ഷെ അത് ഒന്നും നടക്കില്ല!
 നോക്കണ്ട അത് ഒന്നും നടക്കില്ല പോടോ ഹേ!
-[എൻ്റെ ഏട്ടൻ](t.me/fun_heat)😴"""
+[എൻ്റെ ഏട്ടൻ](t.me/fun_heat)😎"""
 
 IMPORTED = {}
 MIGRATEABLE = []
