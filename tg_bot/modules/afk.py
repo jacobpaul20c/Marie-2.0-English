@@ -61,17 +61,17 @@ def reply_afk(bot: Bot, update: Update):
             if sql.is_afk(user_id):
                 user = sql.check_afk_status(user_id)
                 if not user.reason:
-                    res = "{} is away from the keyboard ! reason :\n{} ".format(fst_name)
+                    res = "{} ശെടാ മുത്ത് പോയ?🧐! :\n{} ".format(fst_name)
                 else:
-                    res = "{} is away from the keyboard ! reason :\n{}. ".format(fst_name, user.reason)
+                    res = "{} മുത്ത് മണിപോയ🧐! reason :\n{}. ".format(fst_name, user.reason)
                 message.reply_text(res)
 
 
 __help__ = """
- - /afk <reason>: mark yourself as AFK.
- - brb <reason>: same as the afk command - but not a command.
+ - /afk <reason>: എന്നിട്ട് എങ്ങോട്ട് ആന്ന് വച്ചാൽ ആങ്ങ് പോ
+ - brb <reason>: ഇത് പ്രത്യേകിച്ച് ഒന്നും ഇല്ല.
 
-When marked as AFK, any mentions will be replied to with a message to say you're not available!
+നീ ഇവിടെ ഇല്ലാ എന്ന് ഞാൻ പറയു.പേടിക്കണ്ട.😎
 """
 
 __mod_name__ = "AFK"
