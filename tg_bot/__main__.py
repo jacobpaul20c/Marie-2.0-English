@@ -30,11 +30,11 @@ HELP_STRINGS = """
 Hello! my name *{}*.
 
 *Main* available commands:
- - /start: Start the bot...
- - /help: help....
+ - /start: ജീവനോടെ ഉണ്ടോ എന്ന് നോക്കാൻ...
+ - /help: അത് ഒന്നും ഇല്ല
  - /donate: To find out more about donating!
  - /settings:
-   - in PM: To find out what SETTINGS you have set....
+   - in PM: കിട്ടിക്കോളും
    - in a group:
 
 {}
