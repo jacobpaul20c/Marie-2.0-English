@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-നമസ്ക്കാരം  {}, എൻ്റെ പേര് {}! if you have any questions about how to use me please ask to *[This Legand](t.me/fun_heat)*
+നമസ്ക്കാരം  {}, എൻ്റെ പേര് {}! *if you have any questions about how to use me please ask to* [This Legand](https://t.me/fun_heat)
 
 *This Bot Can't Join your group's🧐*
 
